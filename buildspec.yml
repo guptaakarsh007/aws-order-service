@@ -1,9 +1,6 @@
 version: 0.2
 
 phases:
-  install:
-    runtime-versions:
-      java: corretto8   # must match your <java.version>1.8</java.version> in pom.xml
   pre_build:
     commands:
       - echo Pre-build phase: verifying environment
